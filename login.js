@@ -6,8 +6,8 @@ function loginValidation(){
     var getpassword = localStorage.getItem("userpassword");
 
     if (entername == getname && enterpass == getpassword){
-        alert("Successfully login")
-        alert("Kindly login")
+        alert("Successfully verified")
+        alert("Kindly click the login to continue")
     }else{
         alert("Invalid username or password")
     }
